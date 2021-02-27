@@ -1,2 +1,68 @@
+/* Navbar style  */
+.navbar-brand {
+    float: left;
+    height: 10%;
+    padding: 0;
+    
+    }
+   .navbar{
+       background-color: rgba(56, 95, 56, 0.445); opacity:0.8;
+       line-height: 20px;
+       line-height: 20px;
+   }
+.navbar-form-navbar-left{
+    margin-left: 117rem;
+    margin-top: 2.2rem;
+}
+.form-control-col-lg-8{
+    width:25rem;
+    line-height: 20px;
+}
+
+/* .logo{
+margin-left: 2rem;
+} */
+.fa{
+    color: rgba(53, 78, 53, 0.445)
+}
+.navbar{
+    /* margin-top:2rem; */
+    width : 100%;
+    /* margin-left: 1.5rem; */
+}
+
+/* Navbar style end */
 
 
+
+.alert {
+    padding: 20px;
+    background-color: rgba(56, 95, 56, 0.445);
+    color: white;
+    width:80%;
+    margin-left: 11rem;
+    opacity:0.5;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
+
+body {
+    background: linear-gradient(70deg, #e6e6e6, #f7f7f7);
+    color: #514B64;
+    
+  }
+  
+ 

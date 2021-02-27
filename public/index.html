@@ -2,14 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
     <title>FEC Demo</title>
   </head>
   <body>
+   <!-- Navbar  -->
+   
+     
+   <div class="navbar navbar-default" >
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"> <img class='logo' src="https://hungamadeal.co.in/wp-content/uploads/2020/06/freesnippingtool.com_capture_20200620213653.png" width = "130">
+        
+</a>
+    </div>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <form class="navbar-form-navbar-left">
+            <input type="text" class="form-control-col-lg-8" placeholder="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+
+<!-- Announcment message  -->
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Announcement !</strong> Sale/Discount <strong> offer.</strong>
+</div>
+    
+
     <div id="name-of-the-service"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
-    <script src="http://localhost:3001/app.js"></script>
+    <script src="http://localhost:3001/app.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
     <script>
       ReactDOM.render(
@@ -17,5 +51,6 @@
         document.getElementById('name-of-the-service')
       );
     </script>
+    
   </body>
 </html>
